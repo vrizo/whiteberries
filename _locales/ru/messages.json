@@ -1,0 +1,11 @@
+{
+    "extensionName": {
+        "message": "Whiteberries для комфортных покупок в маркетплейсах",
+        "description": "Name of the extension"
+    },
+
+    "extensionDescription": {
+        "message": "Удаляет раздражающие маркетинговые трюки и «тёмные паттерны» на сайтах маркетплейсов. Сосредоточьтесь на самом главном — покупке любимых товаров!",
+        "description": "Description of the extension"
+    }
+}

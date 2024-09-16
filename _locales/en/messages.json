@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Whiteberries extension",
+    "description": "Name of the extension"
+  },
+
+  "extensionDescription": {
+    "message": "Say goodbye to online shopping distractions with Whiteberries! This extension removes annoying marketing tricks and ads, allowing you to focus on what matters most – products and services.",
+    "description": "Description of the extension"
+  }
+}

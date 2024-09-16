@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "1.0",
+  "description": "__MSG_extensionDescription__",
+  "homepage_url": "https://github.com/vrizo/whiteberries",
+  "default_locale": "ru",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting",
+    "*://*.aliexpress.com/*",
+    "*://*.amazon.com/*",
+    "*://*.citilink.ru/*",
+    "*://*.dns-shop.ru/*",
+    "*://*.ebay.com/*",
+    "*://*.eldorado.ru/*",
+    "*://*.etsy.com/*",
+    "*://*.lamoda.ru/*",
+    "*://*.mvideo.ru/*",
+    "*://*.ozon.ru/*",
+    "*://*.ozon.travel/*",
+    "*://*.wildberries.ru/*",
+    "*://*.vgamuseum.ru/*",
+    "*://*.megamarket.ru/*",
+    "*://*.vk.com/*",
+    "*://*.market.yandex.ru/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.ozon.ru/*", "*://*.ozon.travel/*", "*://*.vgamuseum.ru/*"],
+      "css": ["ozon.css"],
+      "js": ["ozon.js"]
+    }
+  ]
+}
