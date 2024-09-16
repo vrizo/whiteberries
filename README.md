@@ -1,4 +1,6 @@
-# Whiteberries for Stress-Free Shopping on Marketplaces
+<img src="https://vrizo.net/whiteberries/whiteberry.png" width="266" height="269" alt="Whiteberries extension" />
+
+# Whiteberries for stress-Free shopping
 
 Removes annoying marketing tricks and "dark patterns" on marketplace websites. Focus on what really matters — buying your favorite products! Developed with customer experience experts using industry best practices, so you can enjoy shopping and save time.
 
